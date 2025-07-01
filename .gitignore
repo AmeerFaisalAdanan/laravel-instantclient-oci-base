@@ -1,0 +1,351 @@
+# -----------------
+# OS / Editor files
+# -----------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# Vim / Emacs
+*~
+.*.swp
+.*.swo
+.*.swn
+.projectile
+
+# -----------------
+# Node / JS / TS
+# -----------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.next/
+out/
+coverage/
+*.tsbuildinfo
+
+# -----------------
+# Python
+# -----------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.egg
+*.egg-info/
+.eggs/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+noxfile.pyc
+.coverage
+htmlcov/
+.mypy_cache/
+.dmypy.json
+.pytest_cache/
+.pyre/
+.pytype/
+venv/
+ENV/
+env/
+.venv/
+virtualenv/
+
+# -----------------
+# Java
+# -----------------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.car
+*.jpi
+*.log
+hs_err_pid*
+target/
+build/
+
+# -----------------
+# Go
+# -----------------
+bin/
+*.exe
+*.test
+*.out
+
+# -----------------
+# Rust
+# -----------------
+/target/
+**/*.rs.bk
+
+# -----------------
+# C / C++
+# -----------------
+*.obj
+*.o
+*.a
+*.so
+*.exe
+*.out
+*.app
+*.dll
+*.dSYM/
+*.pdb
+
+# -----------------
+# C#
+# -----------------
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+packages/
+
+# -----------------
+# PHP
+# -----------------
+vendor/
+composer.lock
+
+# -----------------
+# Ruby
+# -----------------
+*.gem
+*.rbc
+.bundle/
+vendor/bundle/
+.rvmrc
+.rbenv-version
+.ruby-version
+.ruby-gemset
+.rspec
+log/
+tmp/
+coverage/
+spec/reports/
+spec/tmp/
+rerun.txt
+
+# -----------------
+# Logs & temp
+# -----------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# -----------------
+# dotenv / local env
+# -----------------
+.env
+.env.* 
+!.env.example
+
+# -----------------
+# Database
+# -----------------
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.dump
+
+# -----------------
+# Mac / Linux trash
+# -----------------
+.Trashes
+*.~lock.*#
+.fuse_hidden*
+.nfs*
+
+# -----------------
+# Windows trash
+# -----------------
+$RECYCLE.BIN/
+
+# -----------------
+# Docker
+# -----------------
+docker-compose.override.yml
+.docker/
+
+# -----------------
+# Terraform
+# -----------------
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# -----------------
+# Misc
+# -----------------
+*.orig
+*.rej
+*.swo
+*.swp
+*.swn
+*.bak
+*.tmp
+
+# -----------------
+# Coverage / Reports
+# -----------------
+coverage-final.json
+lcov-report/
+clover.xml
+coverage.xml
+nyc_output/
+istanbul/
+
+# -----------------
+# Jupyter
+# -----------------
+.ipynb_checkpoints/
+
+# -----------------
+# Temporary by build tools
+# -----------------
+.mvn/
+*.launch
+.settings/
+.idea_modules/
+target/
+out/
+
+# -----------------
+# ESLint / Stylelint
+# -----------------
+.eslintcache
+.stylelintcache
+
+# -----------------
+# Parcel / Vite / others
+# -----------------
+.parcel-cache/
+.vite/
+
+# -----------------
+# Svelte / Astro
+# -----------------
+.svelte-kit/
+.astro/
+
+# -----------------
+# Nuxt / Vue
+# -----------------
+.nuxt/
+.vuepress/
+.storybook/
+node_modules/
+
+# -----------------
+# Flutter / Dart
+# -----------------
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-versions
+.pub-cache/
+build/
+.idea/
+.midea/
+
+# -----------------
+# Android
+# -----------------
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.apk
+*.aar
+*.hprof
+/build/
+captures/
+output.json
+
+# -----------------
+# Xcode / iOS
+# -----------------
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# -----------------
+# Unity
+# -----------------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# -----------------
+# Backup & other
+# -----------------
+*.bak
+*.old
+*.orig
+*.save
+
+# End of .gitignore
