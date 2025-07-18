@@ -4,7 +4,7 @@ services:
   app:
     build:
       context: .
-      dockerfile: ./docker/php/Dockerfile.php
+      dockerfile: ./docker/php/Dockerfile
       args:
         TARGETARCH: ${TARGETARCH:-${BUILDPLATFORM_ARCH:-amd64}}
     container_name: app
