@@ -1,4 +1,8 @@
 
+![Build Status](https://github.com/AmeerFaisalAdanan/laravel-instantclient-oci-base/actions/workflows/testbuild.yml/badge.svg)
+
+Update: Now support for arm64 dockerfile.
+
 # Running instantclient on your mac (windows and linux too)
 
 I hate installing and configuring oracle products so I create this repo for everyone who need. I appreciate every comment / issue to make this repo better for everyone in need of quick and lazy way to start developing (mostly laravel project) with Oracle DB 
